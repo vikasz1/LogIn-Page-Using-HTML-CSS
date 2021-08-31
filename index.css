@@ -2,8 +2,8 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    background: url("/win11.jpg") no-repeat;
-    background-size: cover;
+    background: url("/win11.jpg") no-repeat ;
+
 }
 .login-box{
     width: 400px;
@@ -80,3 +80,10 @@ body{
     100% {top: 0px; left: 0px; background: red;}
   }
 
+p{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
