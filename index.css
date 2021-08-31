@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    background: url("/win11.jpg") no-repeat ;
+    background: url("img/win11.jpg") no-repeat ;
     background-size: cover;
 
 }
