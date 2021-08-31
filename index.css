@@ -10,10 +10,14 @@ body{
     width: 400px;
     position: absolute;
     top: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-
+    background: rgba(131, 131, 189,0.1);
+    box-shadow: 0 0 10px #26bf47;
 }
 
 .login-box h1{
@@ -29,10 +33,11 @@ body{
     overflow: hidden;
     font-size: 20px;
     padding: 8px 0;
-    margin: 8px 0;
+    margin: 10px 0;
     border-bottom: 1px solid #26343b;
-
+    
 }
+
 
 .textbox i{
     width: 20px;
@@ -47,8 +52,14 @@ body{
     color: white;
     font-size: 20px;
     width: 80%;
+    border-radius: 8px;
     float: left;
     margin:0 10px;
+    
+}
+
+.textbox input:focus{
+    box-shadow: 0 0 10px #fafcfa;
 }
 .btn{
     width: 100%;
@@ -70,7 +81,7 @@ body{
     padding:5px;
     font-size: 20px;
     cursor: pointer;
-    
+    animation: ptag 5s infinite;
     margin: 12px 0;
 }
 @keyframes mymove {
@@ -87,4 +98,13 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+    animation: ptag 5s infinite;
+}
+@keyframes ptag{
+    0%   {box-shadow: 0 0 100px #ff1100;}
+    25%  {box-shadow: 0 0 100px #26bf47;}
+    50%  {box-shadow: 0 0 10px #05028d;}
+    75%  {box-shadow: 0 0 10px #eeff02;}
+    100% {box-shadow: 0 0 10px #ff0404;}
+    
 }
