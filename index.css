@@ -5,7 +5,7 @@ body{
     background: url("img/win11.jpg")  ;
     background-size: cover;
     align-items: center;
-background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
 
 }
@@ -15,7 +15,7 @@ background-attachment: fixed;
     top: 50%;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 30px;
+    padding: 31px;
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
